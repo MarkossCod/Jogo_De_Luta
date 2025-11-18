@@ -1,3 +1,5 @@
+package personagens;
+
 public abstract class Lutador {
     protected String nome;
     protected int vida;
@@ -11,6 +13,13 @@ public abstract class Lutador {
         this.energia = energia;
         this.forca = forca;
         this.defendendo = false;
+    }
+    public int getVida() {
+        return vida;
+    }
+
+    public int getEnergia() {
+        return energia;
     }
 
     // MÉTODO 1: atacar

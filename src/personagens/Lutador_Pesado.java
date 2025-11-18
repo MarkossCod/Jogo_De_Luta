@@ -1,3 +1,5 @@
+package personagens;
+
 public class Lutador_Pesado extends Lutador {
 
     public Lutador_Pesado(String nome, int energia, int forca) {
